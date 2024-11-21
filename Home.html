@@ -4,12 +4,43 @@
 <head>
     <title>Home</title>
 
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse; /* ให้ตารางไม่มีช่องว่างระหว่างเซลล์ */
+        }
+
+        th {
+            background-color: #5a93fc; /* สีน้ำเงิน */
+            color: white; /* ตัวอักษรสีขาว */
+            padding: 10px;
+        }
+
+        td {
+            background-color: #cbedf8; /* สีฟ้าอ่อน */
+            color: black; /* ตัวอักษรสีดำ */
+            padding: 10px;
+            text-align: center; /* จัดข้อความให้อยู่กลางเซลล์ */
+        }
+
+        table, th, td {
+            border: 3px solid rgb(255, 255, 255); /* เส้นขอบของตารางและเซลล์ */
+        }
+    </style>
+
 <body>
-    <div>
-        <p>ทรงศักดิ รองวิริยะพานิ
-            ์
-            ช อ.หนุ่ย</p>
-    </div>
+    <table border="1">
+        <tr>
+            <th>ชื่อนามสกุล</th>
+            <th>ภาควิชา</th>
+            <th>ชั้นปี</th>
+        </tr>
+        <tr>
+            <td>วรวีร์ นุชธิสาร</td>
+            <td>วิทยาการคอมพิมเตอร์</td>
+            <td>2</td>
+        </tr>
+    </table>
 </body>
 
 </html>
